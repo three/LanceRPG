@@ -1,0 +1,17 @@
+name:           lancerpg
+version:        0.1.0.0
+author:         Eric Roberts
+maintainer:     eric@threedot14.com
+category:       Game
+build-type:     Simple
+cabal-version:  >=1.10
+
+executable lancerpg
+    hs-source-dirs:     src
+    main-is:            Main.hs
+    ghc-options:        -XNoImplicitPrelude -XOverloadedStrings
+    build-depends:      base,
+                        classy-prelude
+    other-modules:      Lance,
+                        Lance.Start,
+                        Lance.Interface
