@@ -9,9 +9,8 @@ cabal-version:  >=1.10
 executable lancerpg
     hs-source-dirs:     src
     main-is:            Main.hs
-    ghc-options:        -XNoImplicitPrelude -XOverloadedStrings
+    default-extensions: NoImplicitPrelude, OverloadedStrings
     build-depends:      base,
-                        classy-prelude
-    other-modules:      Lance,
-                        Lance.Start,
-                        Lance.Interface
+                        protolude,
+                        ncurses
+    other-modules:      Lance.Term

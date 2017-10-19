@@ -1,6 +1,5 @@
-import ClassyPrelude
-
-import Lance
+import Protolude
+import Lance.Term
 
 main :: IO ()
-main = playLance
+main = initLance

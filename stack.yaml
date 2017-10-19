@@ -1,1 +1,4 @@
 resolver: lts-9.9
+
+extra-deps:
+    - ncurses-0.2.16
