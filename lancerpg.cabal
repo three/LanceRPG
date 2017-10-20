@@ -13,4 +13,5 @@ executable lancerpg
     build-depends:      base,
                         protolude,
                         ncurses
-    other-modules:      Lance.Term
+    other-modules:      Lance.Term,
+                        Lance.Util
